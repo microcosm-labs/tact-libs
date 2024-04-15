@@ -1,0 +1,8 @@
+;;; Computes the xor of two integers [x] and [y].
+int xor(int x, int y) asm "XOR";
+
+;;; Computes bitwise not of an integer.
+int not(int x) asm "NOT";
+
+;;; Checks whether the data parts of two slices coinside
+int equal_slices(slice a, slice b) asm "SDEQ";
